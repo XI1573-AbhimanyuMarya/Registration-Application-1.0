@@ -1,0 +1,73 @@
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+
+  .container {
+    padding: 16px;
+    border: darkblue;
+  }
+
+  input[type=text], input[type=password] , input[type=date] ,input[type=dropdown] {
+    width: 38%;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-size: large;
+  }
+
+  .form-control{
+    width: 38%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+  }
+
+  option{
+    background-color: #ddd;
+    outline: none;
+    width: 38%;
+  }
+
+  label{
+    width: 38%;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    font-size: large;
+ list-style: circle;
+    
+  
+  }
+
+  .has-info{
+      background-color: burlywood;
+      width: auto;
+  }
+
+  a{
+    font-style: italic;
+    color: crimson;
+    position: absolute;
+    right: 0;
+    
+  }

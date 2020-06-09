@@ -1,0 +1,49 @@
+<div class="container">
+  <div>
+  <button class="hello">
+    <nav>
+    <ul class='nav nav-pills'>
+     <a class='nav-link' routerLinkActive='active' [routerLink]="['/admin']"> Admin page</a>
+    </ul>
+    </nav>
+  </button>
+  <button class="helloworld">
+    <nav>
+    <ul class='nav nav-pills'>
+      <a class='nav-link' routerLinkActive='active' [routerLink]="['/']"> Home</a>
+    </ul>
+    </nav>
+  </button>
+
+</div>
+  <div style="text-align: center;">
+    <div class="form-group">
+      <label>Buyer Name</label>
+      <div class="form-control">{{dataRegister.name}}</div>
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <div class="form-control">{{dataRegister.email}}</div>
+    </div>
+    <div class="form-group">
+      <label>Phone</label>
+      <div class="form-control">{{dataRegister.phone}}</div>
+    </div>
+    <div class="form-group">
+      <label>Bike Model</label>
+      <div class="form-control">{{dataRegister.model}}</div>
+    </div>
+    <div class="form-group">
+      <label>Bike Serial Number</label>
+      <div class="form-control">{{dataRegister.serialNumber}}</div>
+    </div>
+    <div class="form-group">
+      <label>Purchase Price</label>
+      <div class="form-control">{{dataRegister.purchasePrice}}</div>
+    </div>
+    <div class="form-group">
+      <label>Purchase Date</label>
+      <div class="form-control">{{dataRegister.purchaseDate}}</div>
+    </div>
+  </div>
+</div>

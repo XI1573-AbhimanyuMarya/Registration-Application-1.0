@@ -1,0 +1,23 @@
+<div class="container">
+    <h2 style="text-align: center;"> Records</h2>
+    <div>
+        <table class="table-bordered table-inverse">
+            <thead>
+                <tr>
+                    <th>Owner Name</th>
+                    <th>Email</th>
+                    <th>Model</th>
+                    <th class="text-right">Purchase Price</th>
+                </tr>
+            </thead>
+            <tr *ngFor='let result of results'>
+                <td><a [routerLink]="['/admin/view',result.id]"> {{result.name}}</a></td>
+                <td> {{result.email}} </td>
+                <td>{{result.model}} </td>
+                <td class="text-right"> {{result.purchasePrice}} </td>
+
+            </tr>
+        </table>
+    </div>
+
+</div>

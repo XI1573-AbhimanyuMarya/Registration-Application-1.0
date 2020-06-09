@@ -1,0 +1,34 @@
+.container{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+  }
+
+ 
+  label {
+    color:blue;
+    text-align: left;
+    font-size: x-large;
+    width: 100%;
+    
+}
+
+.form-control{
+
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    background-color:lightgray;
+    width: 100%;
+}
+
+.form-group{
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.helloworld, .hello{
+    width: 10%;
+    column-width: 2px;
+}
